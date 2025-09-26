@@ -15,10 +15,13 @@ This repository contains various projects and implementations related to **data 
    ```bash
    git clone https://github.com/your-username/Data-Mining.git
    cd Data-Mining
-2. Install dependencies (if any):
+2. Install dependencies :
+   ```bash
    pip install -r requirements.txt
 3. Web Scraping: To extract article data and save it to a CSV file, run:
+   ```bash
    python crawl.py
-4. Text Preprocessing: To process the articles and extract keywords, run:
+5. Text Preprocessing: To process the articles and extract keywords, run:
+   ```bash
    python find_keywords.py  
-5. Clustering: To run clustering algorithms on the processed data, navigate to notebook project.ipynb and follow the instructions inside.
+7. Clustering: To run clustering algorithms on the processed data, navigate to notebook project.ipynb and follow the instructions inside.
