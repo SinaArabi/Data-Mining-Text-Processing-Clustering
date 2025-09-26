@@ -1,0 +1,11 @@
+# Data Mining: Text Processing & Clustering
+
+This repository contains various projects and implementations related to **data mining**, focusing on **text mining**, **web scraping**, and **clustering algorithms**. It demonstrates techniques for processing Persian text, extracting information from web pages, and clustering documents based on their content.
+
+- **Web Scraping**: This part of the project uses `BeautifulSoup` to extract article data (abstracts and keywords) from local HTML files. It processes and saves the extracted data into CSV files for further analysis. Codes for this part are available at ./crawl.py .
+  
+- **Text Preprocessing**: Tokenization and lemmatization of Persian text using the **Hazm** library. The text is cleaned by removing stop words and filtering out irrelevant content (e.g., punctuation, numbers). Codes for this part are available at ./find_keyword.py .
+  
+- **Clustering**: The project implements **clustering algorithms** to group similar articles based on their content. The clustering can be applied to keyword sets or the full text of articles. Codes for this part are available at ./project.ipynb .
+
+
